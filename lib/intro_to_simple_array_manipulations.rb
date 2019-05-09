@@ -35,4 +35,14 @@ def using_uniq(arr)
 end 
 
 def using_flatten(arr)
+  return arr.flatten
+end 
+
+def using_delete(arr, str)
+  return arr.delete(str)
+end
+
+def using_delete_at(arr, int)
+  return arr.delete(int)
+end
   
